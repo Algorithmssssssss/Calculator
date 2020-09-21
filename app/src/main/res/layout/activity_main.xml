@@ -7,26 +7,35 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/color_button"
+        android:layout_width="127dp"
+        android:layout_height="103dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="107dp"
-        android:text="@string/press_here_to_send_msg" />
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="47dp"
+        android:text="@string/press_here_to_send_msg"
+        android:onClick="changeOnClick"
+        tools:text="Change Text" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="117dp"
-        android:layout_height="35dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/color_button"
+        android:layout_alignRight="@+id/color_button"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="64dp"
-        android:text="@string/hello_world" />
+        android:layout_centerVertical="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="-188dp"
+        android:layout_marginRight="-188dp"
+        android:layout_toEndOf="@+id/color_button"
+        android:layout_toRightOf="@+id/color_button"
+        android:fontFamily="cursive"
+        android:text="@string/hello_world"
+        android:textSize="36sp" />
 </RelativeLayout>
