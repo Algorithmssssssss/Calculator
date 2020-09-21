@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="press_here_to_send_msg">Press here to send msg</string>
+    <string name="hello_world">Hello World!!</string>
+</resources>
